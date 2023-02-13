@@ -134,6 +134,7 @@ function command(){
         "<br>  dos" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl moje doswiadczenie zawodowe"+
         "<br>  jezyki" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl jezyki w jakich sie komunikuje" +
         "<br>  tlo[1-6]" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " zmien tapete <br><br>"+textInput(i)
+        
         d=document.createElement('div');
         cos = document.getElementById("message")
         cos.appendChild(d)
