@@ -12,6 +12,7 @@ msc = msc+1;
 let date = data.getDate() +"-"+ msc +"-"+ data.getFullYear() +" "+ data.getHours() +":"+ data.getMinutes() + ":" + data.getSeconds()
 lastLogin=document.getElementById("lastlogin").innerHTML="Last login: " + date + " on ttys000 <br> Jezeli korzystasz z telefonu polecam powiekszyc konsole zrobisz <br> zrobisz to przyciskiem w kształcie zielonego kółka <br> zalecane jest korzystanie z komputera strona ładniej wyglada"
 
+
 i=0;
 box = document.getElementById('terminal-box')
 
