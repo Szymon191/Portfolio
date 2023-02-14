@@ -10,7 +10,7 @@ msc = data.getMonth();
 msc = msc+1;
 
 let date = data.getDate() +"-"+ msc +"-"+ data.getFullYear() +" "+ data.getHours() +":"+ data.getMinutes() + ":" + data.getSeconds()
-lastLogin=document.getElementById("lastlogin").innerHTML="Last login: " + date + " on ttys000 <br> Jezeli korzystasz z telefonu polecam powiekszyc konsole zrobisz <br> zrobisz to przyciskiem w kształcie zielonego kółka <br> zalecane jest korzystanie z komputera strona ładniej wyglada"
+lastLogin=document.getElementById("lastlogin").innerHTML="Last login: " + date + " on ttys000"
 
 
 i=0;
@@ -69,7 +69,7 @@ function skills()
 {
     i++
 
-    var msgskills = "<br> <b>skills</b> <br> HTML/CSS: 90% <br> JavaScript: 50% <br> PHP: 70% <br> Java: 50% <br> Python: 50% <br> C++: 65% <br> SQL: 80% <br><br>";
+    var msgskills = "<br> <b>technologie:</b> <br> HTML/CSS: 90% <br> JavaScript: 50% <br> PHP: 70% <br> Java: 50% <br> Python: 50% <br> C++: 65% <br> SQL: 80% <br><br>";
 
     d=document.createElement('div');
     cos = document.getElementById("message")
@@ -130,7 +130,7 @@ function command(){
         i++
 
         var msg = "lista komend <br>  oMnie"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl informacje o mnie "+ 
-        "<br>  skills" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl moje umiejetnosci "+
+        "<br>  tech" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl moje umiejetnosci "+
         "<br>  edu" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ "wyswietl sciezke mojej edukacji"+
         "<br>  dos" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl moje doswiadczenie zawodowe"+
         "<br>  jezyki" + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ " wyswietl jezyki w jakich sie komunikuje" +
@@ -160,7 +160,7 @@ function command(){
         cos.appendChild(d)
         d.innerHTML = textInput(i);
 
-    }else if(element.value == "skills"){
+    }else if(element.value == "tech"){
 
         skills();
 
